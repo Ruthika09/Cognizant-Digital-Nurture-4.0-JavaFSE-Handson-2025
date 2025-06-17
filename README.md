@@ -1,5 +1,6 @@
 # Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025
 This repository contains solutions for the hands-on exercises in the Cognizant Digital Nurture 4.0 Java FSE program (2025), an 8-week training program. 
+
 **Week 1**  
 - Design principles & Patterns  
 **Week 2**  
