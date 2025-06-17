@@ -1,4 +1,4 @@
- // Corrected package name (no spaces)
+
 class Logger {  
     private static Logger instance;  
 
@@ -18,18 +18,18 @@ class Logger {
     }  
 }  
 
-public class SingletonPatternExample {  // Class name should start with uppercase
+public class SingletonPatternExample {  
     public static void main(String[] args) {
         System.out.println("Hello, Java Package!");
 
-        // Singleton Logger Example
+        
         Logger logger1 = Logger.getInstance();
         Logger logger2 = Logger.getInstance();
 
         logger1.log("Application started.");
         logger2.log("User logged in.");
 
-        // Checking if both instances are the same
+       
         if (logger1 == logger2) {
             System.out.println("Both logger1 and logger2 are the same instance.");
         } else {
